@@ -20,7 +20,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	side
 	constructor(width,height,side){
 		this.side = side
